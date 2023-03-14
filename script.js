@@ -3,7 +3,7 @@ content = document.querySelector(".content"),
 selectMenu = document.querySelectorAll("select"),
 setAlarmBtn = document.querySelector("button");
 let alarmTime, isAlarmSet,
-ringtone = new Audio("https://github.com/gajraj73/ProjectsFE/blob/master/alarm_clock.mp3");
+ringtone = new Audio("https://github.com/gajraj73/ProjectsFE/blob/5b428bf0ca412bfc8eac12e2ffad8f25ee9ffb21/alarm_clock.mp3");
 for (let i = 12; i > 0; i--) {
     i = i < 10 ? `0${i}` : i;
     let option = `<option value="${i}">${i}</option>`;
